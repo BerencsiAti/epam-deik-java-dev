@@ -12,7 +12,9 @@ public interface ScreeningService {
 
     void createScreening(String movie, String room, LocalDateTime screeningTime)
             throws ExtendingException, BreakStageException, NotFoundException;
+
     void deleteScreening(String movie, String room, LocalDateTime screeningTime)
             throws NotFoundException;
+
     List<ScreeningDto> screeningList();
 }
