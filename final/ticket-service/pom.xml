@@ -123,9 +123,10 @@
                         <configuration>
                             <excludes>
                                 <exclude>com/epam/training/ticketservice/Application/*</exclude>
-                                <exclude>com/epam/training/ticketservice/ui/**</exclude>
-                                <exclude>com/epam/training/ticketservice/core/model/**</exclude>
                                 <exclude>com/epam/training/ticketservice/core/repository/**</exclude>
+                                <exclude>com/epam/training/ticketservice/core/model/**</exclude>
+                                <exclude>com/epam/training/ticketservice/ui/**</exclude>
+
                             </excludes>
                             <rules>
                                 <rule>
